@@ -34,13 +34,13 @@ mysql> desc student;
 +-----------+-------------+------+-----+---------+-------+
 7 rows in set (0.02 sec)
 
-mysql> insert into  student value(1,'vishwa',192221043,'IT',18,2004,9940829257);
+mysql> insert into  student value(1,'vishwa',192221043,'IT',18,2004,9940829256);
 Query OK, 1 row affected (0.01 sec)
-mysql> insert into student value(2,'madhan',192221042,'IT',17,2005,8524063794);
+mysql> insert into student value(2,'madhan',192221042,'IT',17,2005,8524063793);
 Query OK, 1 row affected (0.00 sec)
-mysql> insert into student value(3,'varshika',192225002,'AIML',19,2003,8610673016);
+mysql> insert into student value(3,'varshika',192225002,'AIML',19,2003,8610673015);
 Query OK, 1 row affected (0.00 sec)
-mysql>  insert into student value(4,'Rohan',192224082,'AGRI',18,2004,9445667479);
+mysql>  insert into student value(4,'Rohan',192224082,'AGRI',18,2004,9445667475);
 Query OK, 1 row affected (0.00 sec)
 
 mysql> select *from student;
